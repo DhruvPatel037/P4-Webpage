@@ -1,0 +1,43 @@
+/* DEVELOPER: Dhruv Patel, IS117-004, Spring 2025*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex: 1;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.fancy-title {
+  font-family: 'Cursive', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 15px 0;
+  width: 100%;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.dropdown-menu {
+    right: 0;
+    left: auto;
+    position: absolute;
+    min-width: 150px;
+    max-width: 200px;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
